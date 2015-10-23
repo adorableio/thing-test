@@ -1,0 +1,7 @@
+web:
+  build: .
+  extra_hosts:
+    - "foo.dev:104.131.24.99"
+  dns:
+    - 8.8.8.8
+    - 8.8.4.4
